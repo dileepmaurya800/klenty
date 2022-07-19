@@ -75,9 +75,13 @@ const Navbar = () => {
               Schedule Demo
             </button>
 
-            <button className="btn btn-outline-success m-1" type="button">
-              Free Trail
-            </button>
+            <a
+              href="/"
+              className="btn btn-primary"
+              style={{ background: "#5856CE" }}
+            >
+              GET STARTED
+            </a>
           </div>
         </div>
       </nav>
